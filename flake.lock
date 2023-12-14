@@ -1,5 +1,22 @@
 {
   "nodes": {
+    "consult": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1670046353,
+        "narHash": "sha256-n7bka1tB8k4LEjApAOJNme7T0XIEP8ZqThVJGEIJk4c=",
+        "owner": "minad",
+        "repo": "consult",
+        "rev": "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8",
+        "type": "github"
+      },
+      "original": {
+        "owner": "minad",
+        "repo": "consult",
+        "rev": "c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8",
+        "type": "github"
+      }
+    },
     "doom-emacs": {
       "flake": false,
       "locked": {
@@ -197,6 +214,22 @@
         "type": "github"
       }
     },
+    "gptel": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702179269,
+        "narHash": "sha256-8YKmkqBkU7bEHlbTwBF9BTdtlFGPsIqn+P9goKU4rp8=",
+        "owner": "karthink",
+        "repo": "gptel",
+        "rev": "5c3b26aeece94c65ac605613c502767cc97478a5",
+        "type": "github"
+      },
+      "original": {
+        "owner": "karthink",
+        "repo": "gptel",
+        "type": "github"
+      }
+    },
     "nix-straight": {
       "flake": false,
       "locked": {
@@ -276,6 +309,22 @@
         "type": "github"
       }
     },
+    "org-ai": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1701181653,
+        "narHash": "sha256-oy3IHLBsToOTyM7SIN1y+lnrvzJ1kGPndczcMr+dBpU=",
+        "owner": "rksm",
+        "repo": "org-ai",
+        "rev": "cf1fdb84620ad856fceb412a71f35f36d2fecefb",
+        "type": "github"
+      },
+      "original": {
+        "owner": "rksm",
+        "repo": "org-ai",
+        "type": "github"
+      }
+    },
     "org-contrib": {
       "flake": false,
       "locked": {
@@ -342,6 +391,7 @@
     },
     "root": {
       "inputs": {
+        "consult": "consult",
         "doom-emacs": "doom-emacs",
         "doom-snippets": "doom-snippets",
         "emacs-overlay": "emacs-overlay",
@@ -354,11 +404,13 @@
         "flake-compat": "flake-compat",
         "flake-utils": "flake-utils",
         "format-all": "format-all",
+        "gptel": "gptel",
         "nix-straight": "nix-straight",
         "nixpkgs": "nixpkgs",
         "nose": "nose",
         "ob-racket": "ob-racket",
         "org": "org",
+        "org-ai": "org-ai",
         "org-contrib": "org-contrib",
         "org-yt": "org-yt",
         "php-extras": "php-extras",
@@ -366,6 +418,7 @@
         "rotate-text": "rotate-text",
         "sln-mode": "sln-mode",
         "ts-fold": "ts-fold",
+        "vterm": "vterm",
         "ws-butler": "ws-butler"
       }
     },
@@ -429,6 +482,22 @@
       "original": {
         "owner": "jcs-elpa",
         "repo": "ts-fold",
+        "type": "github"
+      }
+    },
+    "vterm": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1681705456,
+        "narHash": "sha256-1+AbPtyl1dS73WTMrIUduyWeM4cOiD3CI7d0Ic3jpVw=",
+        "owner": "akermu",
+        "repo": "emacs-libvterm",
+        "rev": "94e2b0b2b4a750e7907dacd5b4c0584900846dd1",
+        "type": "github"
+      },
+      "original": {
+        "owner": "akermu",
+        "repo": "emacs-libvterm",
         "type": "github"
       }
     },

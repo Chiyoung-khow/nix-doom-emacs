@@ -134,4 +134,17 @@ self: super: {
       ln -snf $out/share/emacs/site-lisp $out/share/emacs/site-lisp/editor-integration/emacs
     '';
   });
+
+  vterm = super.vterm.overrideAttrs (old: { src = lock "vterm"; });
+
+  consult = super.consult.overrideAttrs (old: { src = lock "consult"; });
+
+  org-ai = self.straightBuild {
+    pname = "org-ai";
+  };
+
+  gptel = self.straightBuild {
+    pname = "gptel";
+  };
+
 }

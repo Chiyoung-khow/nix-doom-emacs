@@ -81,6 +81,14 @@
     ts-fold.flake = false;
     ws-butler.url = "github:hlissner/ws-butler";
     ws-butler.flake = false;
+    vterm.url = "github:akermu/emacs-libvterm";
+    vterm.flake = false;
+    consult.url = "github:minad/consult/c3608b1f634aebf8770ecb1d933a1ae9c34ecdf8";
+    consult.flake = false;
+    org-ai.url = "github:rksm/org-ai";
+    org-ai.flake = false;
+    gptel.url = "github:karthink/gptel";
+    gptel.flake = false;
 
     nixpkgs.url = "nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
